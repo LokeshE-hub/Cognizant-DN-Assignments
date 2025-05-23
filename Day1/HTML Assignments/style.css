@@ -1,0 +1,32 @@
+.spa {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  background-color: #333;
+  padding: 10px 20px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px; 
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  width: 100%;
+  padding: 20px;
+}
